@@ -1,0 +1,146 @@
+@font-face {
+    font-family: Romantic;
+    src: url(./fonte/jully\ julia.otf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(91, 14, 179, 0.295);
+    font-size: 20px;
+    
+}
+
+header{
+    background-color: #9678e9c5;
+    color: rgb(25, 1, 41);
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1{
+    margin: 0;
+    font-family: "Playwrite DE Grund", cursive;
+    background-image: url(https://images.unsplash.com/photo-1612152916525-a569e78ed905?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njd8fHB1cnBsZSUyMG5lb258ZW58MHx8MHx8fDA%3D);
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent ;
+    font-weight: 900;
+    font-size: 45px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: rgb(38, 1, 59);
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color: rgb(57, 9, 87);
+    color: #d9b3e7;
+}
+
+main{
+    padding: 50px;
+    width: 75%;
+    width: auto;
+}
+
+h2{
+   color: rgb(35, 1, 66);
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  
+}
+
+table, th, td{
+    border: 3px solid rgb(52, 13, 114);
+    padding: 10px;
+    text-align: left;
+    font-size: 20px;
+}
+
+figure{
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+img{
+    width: 200px;
+    height: auto;
+    border-radius: 4%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+form label{
+    margin-top: 10px;
+}
+
+form input, form textarea{
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid rgb(87, 18, 165);
+    border-radius: 5px;
+}
+form button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #470585;
+    color: #d5b9ec;
+    cursor: pointer;
+    box-shadow: 4px 5px 5px #000000;
+    border-radius: 10px;
+}
+
+form button:hover{
+    background-color: #72439e;
+}
+
+footer{
+    background-color: #470585;
+    color: #d5b9ec;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+mark{
+    background-color: #9678e9d8;
+    border-radius: 8%;
+}
+p.intro{
+    font-size: 20px;
+    text-align: center;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+strong{
+    text-decoration: underline;
+    color: #250246;
+}
+h3{
+    font-family: Romantic;
+}
+article{
+    background-color: #9678e991;
+    border-radius: 5px;
+}
